@@ -90,7 +90,34 @@ function square (x) {
  * @param {number} y
  * @return {number} the result
  */
+function calculate (operation, x, y) {
+	var output;
 
+	switch (operation) {
+		case 'add':
+			output = x + y;
+			console.log(x + ' + ' + y + ' = ' + output);
+			return output;
+			break;
+		case 'subtract':
+			output = x - y;
+			console.log(x + ' - ' + y + ' = ' + output);
+			return output;
+			break;
+		case 'multiply':
+			output = x * y;
+			console.log(x + ' * ' + y + ' = ' + output);
+			return output;
+			break;
+		case 'divide':
+			output = x / y;
+			console.log(x + ' / ' + y + ' = ' + output);
+			return output;
+			break;
+		default:
+			console.log('Invalid parameters! Error!');
+	}
+}
 
 /**
  * Returns true if `a` is greater than `b`.
