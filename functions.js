@@ -22,7 +22,9 @@ function increase (number) {
  * @param {number} n
  * @return {number}
  */
-
+function decrease (number) {
+	return number-1;
+}
 
 /**
  * Adds two numbers.
