@@ -170,7 +170,10 @@ function areEqual (a, b) {
  * @param {number} y
  * @return {number} the smallest number
  */
-
+function minimum (x, y) {
+	var smallest = Math.min(x, y);
+	return smallest;
+}
 
 /**
  * Returns the largest value of two numbers.
@@ -178,7 +181,7 @@ function areEqual (a, b) {
  * @param {number} y
  * @return {number} the largest number
  */
-
+ 
 
 /**
  * Returns true if `n` is even.
