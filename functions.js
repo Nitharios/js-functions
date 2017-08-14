@@ -14,7 +14,8 @@ function numberToString (number) {
  * @return {number}
  */
 function increase (number) {
-	return number+1;
+	var add = number+1;
+	return add;
 }
 
 /**
@@ -23,7 +24,8 @@ function increase (number) {
  * @return {number}
  */
 function decrease (number) {
-	return number-1;
+	var subtract = number-1;
+	return subtract;
 }
 
 /**
@@ -32,7 +34,10 @@ function decrease (number) {
  * @param {number} y
  * @return {number} the sum
  */
-
+function add (x, y) {
+	var sum = x + y;
+	return sum;
+}
 
 /**
  * Subtracts the second number from the first.
