@@ -128,8 +128,7 @@ function calculate (operation, x, y) {
 function isGreaterThan (a, b) {
 	if (a > b) {
 		return true;
-	}
-	else {
+	} else {
 		return false;
 	}
 }
@@ -143,8 +142,7 @@ function isGreaterThan (a, b) {
 function isLessThan (a, b) {
 	if (a < b) {
 		return true;
-	}
-	else {
+	} else {
 		return false;
 	}
 }
@@ -158,8 +156,7 @@ function isLessThan (a, b) {
 function areEqual (a, b) {
 	if (a === b) {
 		return true;
-	}
-	else {
+	} else {
 		return false;
 	}
 }
@@ -194,8 +191,7 @@ function minimum (x, y) {
 function isEven (n) {
 	if (n%2 === 0) {
 		return true;
-	}
-	else {
+	} else {
 		return false;
 	}
 }
@@ -205,7 +201,13 @@ function isEven (n) {
  * @param {number} n
  * @return {boolean} the number is odd
  */
-
+function isOdd (n) {
+	if (n%2 !== 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
 
 /**
  * Returns a letter grade.
